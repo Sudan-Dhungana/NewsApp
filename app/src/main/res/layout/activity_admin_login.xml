@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="10dp"
+    tools:context=".AdminActivities.AdminLoginActivity">
+
+    <TextView
+        android:id="@+id/txtLabelAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="20dp"
+        android:text="@string/administration_login"
+        android:textAlignment="center"
+        android:textColor="@color/black_shade_1"
+        android:textSize="@dimen/_16ssp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/adminProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:contentDescription="AdminProfile"
+        android:src="@drawable/admin_profile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtLabelAdmin" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/username_login_layout"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="30dp"
+        android:autofillHints="username"
+        android:hint="@string/enter_your_username"
+        android:inputType="textPersonName"
+        android:textColorHint="#9E9E9E"
+        app:hintTextColor="@color/dodgerblue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/adminProfile">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/adminUsernameTF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edittext_border"
+            android:drawableStart="@drawable/username_person_outline"
+            android:drawablePadding="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black_shade_1" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="10dp"
+        android:autofillHints="username"
+        android:hint="@string/enter_your_password"
+        android:inputType="textPassword"
+        android:textColorHint="#9E9E9E"
+        app:hintTextColor="@color/dodgerblue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/username_login_layout"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/light_blue_shade">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/adminPasswordTF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edittext_border"
+            android:drawableStart="@drawable/password_icon"
+            android:drawablePadding="10dp"
+            android:drawableTint="@color/dodgerblue"
+            android:padding="10dp"
+            android:textColor="@color/black_shade_1" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/adminLoginBtn"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/button_bg"
+        android:text="@string/login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

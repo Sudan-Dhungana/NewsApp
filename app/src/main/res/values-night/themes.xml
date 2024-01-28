@@ -1,0 +1,18 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.TechTrends" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. <item name="colorPrimary">@color/green_shade</item>-->
+        <item name="colorPrimary">@color/light_blue_shade</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/black_shade_1</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <!-- Set the status bar content color as dark -->
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

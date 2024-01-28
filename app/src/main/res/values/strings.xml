@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+    <string name="welcome">Welcome, back!\nEnter Login Details</string>
+    <string name="enter_your_username">Enter your username/email</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="category">Category</string>
+    <string name="category_image">CATEGORYIMG</string>
+    <string name="your_daily_news">Your Daily News</string>
+    <string name="sub_heading">Sub Heading</string>
+    <string name="new_heading">New Heading</string>
+    <string name="news_headline">News Headline</string>
+    <string name="readbyvoice">READBYVOICE</string>
+    <string name="news_details">News Details</string>
+    <string name="news_image">NEWSIMAGE</string>
+    <string name="title">Title</string>
+    <string name="sub_description">Sub Description</string>
+    <string name="read_full_news_from_source">Read Full News From Source</string>
+    <string name="content">Content</string>
+    <string name="leave_a_comment">Leave a comment...</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="login_acc">Login</string>
+    <string name="enter_your_contact">Enter your contact</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="register">Register</string>
+    <string name="enter_your_address">Enter your address</string>
+    <!-- For Country Selection, country news -->
+    <string-array name="Country_Names">
+        <item>United States</item>
+        <item>India</item>
+        <item>Argentina</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Belgium</item>
+        <item>Brazil</item>
+        <item>Bulgaria</item>
+    </string-array>
+    <string-array name="Choose_Country">
+        <item>us</item>
+        <item>in</item>
+        <item>ar</item>
+        <item>au</item>
+        <item>at</item>
+        <item>be</item>
+        <item>br</item>
+        <item>bg</item>
+    </string-array>
+    // change this to change all url ip address for volley api request
+    <string name="ip_address">http://192.168.1.66/</string>
+    // other projects display
+    <string name="ecommerce_hyperlink">View my project at: http://192.168.1.65:8080/ecommerce/</string>
+    <string name="cms_hyperlink_admin">View my project at: http://192.168.1.65:8080/C.M.S/login.php</string>
+    <string name="cms_hyperlink_home">View my CMS Homepage at: http://192.168.1.65:8080/C.M.S/</string>
+    <string name="administration_login">Administration Login</string>
+    <string name="register_msg">Enter Details to Register</string>
+    <string name="published_at">Published At:</string>
+    <string name="set_image">Set Image</string>
+    <string name="add_image">ADD IMAGE</string>
+    <string name="logout">Logout</string>
+    <string name="other_web_apps_from_developer">Other web apps from developer:</string>
+
+</resources>
