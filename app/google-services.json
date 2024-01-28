@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "802307920959",
+    "firebase_url": "https://techtrends-849a2-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "techtrends-849a2",
+    "storage_bucket": "techtrends-849a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802307920959:android:88d797897816fb4ac2548a",
+        "android_client_info": {
+          "package_name": "com.infinix.NewsApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "802307920959-8lsl87bc2dt36golpv716804bmb0mndq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfzVSwDrqZXpEX6GOIw5Ah7MtV5qpjigg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "802307920959-8lsl87bc2dt36golpv716804bmb0mndq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802307920959:android:1c309eb5d2e06159c2548a",
+        "android_client_info": {
+          "package_name": "com.infinix.techtrends"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "802307920959-8lsl87bc2dt36golpv716804bmb0mndq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfzVSwDrqZXpEX6GOIw5Ah7MtV5qpjigg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "802307920959-8lsl87bc2dt36golpv716804bmb0mndq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
